@@ -1,0 +1,36 @@
+.logo {
+  grid-area: logo;
+}
+.storna {
+  grid-area: storna;
+}
+.menu {
+  grid-area: menu;
+}
+
+img {
+  width: 90vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "logo logo logo logo"
+    "storna menu menu menu"
+    "storna menu menu menu";
+  gap: 10px;
+  background-color: #b3ff00;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(212, 245, 217, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.Pesel {
+  text-decoration: underline;
+  font-size: 40pt;
+}
